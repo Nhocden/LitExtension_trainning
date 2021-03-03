@@ -1,0 +1,5 @@
+id,email,accepts_marketing,created_at,updated_at,first_name,last_name,orders_count,state,total_spent,last_order_id,note,verified_email,multipass_identifier,tax_exempt,phone,tags,last_order_name,currency,accepts_marketing_updated_at,marketing_opt_in_level,tax_exemptions,admin_graphql_api_id
+5034274848928,nam@gmail.com,False,2021-03-01T17:34:23+07:00,2021-03-01T17:34:23+07:00,Nguyễn,Nam,0,disabled,0.00,,,True,,False,+84941111222,,,VND,2021-03-01T17:34:23+07:00,,[],gid://shopify/Customer/5034274848928
+5034094624928,kiên@gmail.com,False,2021-03-01T15:03:36+07:00,2021-03-01T15:03:36+07:00,Nguyễn,Kiên,0,disabled,0.00,,,True,,False,+84831111111,,,VND,2021-03-01T15:03:36+07:00,,[],gid://shopify/Customer/5034094624928
+5034093084832,,False,2021-03-01T15:02:39+07:00,2021-03-01T15:02:39+07:00,Nguyễn `,Trung,0,disabled,0.00,,,True,,False,,,,VND,2021-03-01T15:02:39+07:00,,[],gid://shopify/Customer/5034093084832
+5034089906336,lien@gmail.com,False,2021-03-01T15:00:03+07:00,2021-03-01T15:00:03+07:00,nguyễn,liên,0,disabled,0.00,,,True,,False,+84838117705,,,VND,2021-03-01T15:00:03+07:00,,[],gid://shopify/Customer/5034089906336
