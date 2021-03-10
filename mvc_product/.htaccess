@@ -1,0 +1,29 @@
+RewriteEngine On
+
+RewriteRule ^admin/create_db?$ index.php?action=create_db&controller=admin
+
+RewriteRule ^admin/index?$ index.php?action=index&controller=admin
+
+RewriteRule ^admin/add?$ index.php?action=add&controller=admin
+
+RewriteRule ^admin/doAdd?$ index.php?action=doAdd&controller=admin
+
+RewriteRule ^admin/product/([0-9]+)?$ index.php?action=product&controller=admin&id=$1
+
+RewriteRule ^admin/edit/([0-9]+)?$ index.php?action=edit&controller=admin&id=$1
+
+RewriteRule ^admin/edit_save/([0-9]+)?$ index.php?action=edit_save&controller=admin&id=$1
+
+RewriteRule ^admin/delete/([0-9]+)?$ index.php?action=delete&controller=admin&id=$1
+
+
+
+RewriteRule ^admin/index/page/([0-9]+)?$ index.php?action=index&controller=admin&page=$1
+
+
+
+RewriteRule ^user/index?$ index.php?action=index&controller=user
+
+RewriteRule ^user/product/([0-9]+)?$  index.php?action=product&controller=user&id=$1
+
+RewriteRule ^user/index/page/([0-9]+)?$ index.php?action=index&controller=user&page=$1
