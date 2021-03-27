@@ -1,0 +1,14 @@
+2021/03/27 11:28:02 : products_errors 37: Traceback (most recent call last):
+  File "/home/asus/Desktop/v32/cartmigration/controllers/migration.py", line 1113, in migration
+    after_import = fn_after_import(id_desc, convert_data, main, ext)
+  File "/home/asus/Desktop/v32/cartmigration/models/cart/woocommerce.py", line 3533, in after_product_import
+    'term_taxonomy_id':term_taxonomy_id,
+UnboundLocalError: local variable 'term_taxonomy_id' referenced before assignment
+
+2021/03/27 11:28:02 : products_errors 39: Traceback (most recent call last):
+  File "/home/asus/Desktop/v32/cartmigration/controllers/migration.py", line 1113, in migration
+    after_import = fn_after_import(id_desc, convert_data, main, ext)
+  File "/home/asus/Desktop/v32/cartmigration/models/cart/woocommerce.py", line 3533, in after_product_import
+    'term_taxonomy_id':term_taxonomy_id,
+UnboundLocalError: local variable 'term_taxonomy_id' referenced before assignment
+
